@@ -12,4 +12,4 @@ My company needed one urgently, so they outsourced it to our ECMS provider.
 And we got a nice result based on their collection system, with a lot of jquery and Angular
 
 But why not go straight to something simple and lighter ? 
-Turn our Contacts into a pure HTML, CSS and Javascript application, in 10K, that's the challenges
+Turn our Contacts into a pure HTML, CSS and Javascript application, in 10k ? that's the challenge !!
