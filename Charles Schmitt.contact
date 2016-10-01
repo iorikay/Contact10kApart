@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MSP2P="http://schemas.microsoft.com/Contact/Extended/MSP2P">
+	<c:Gender>Male</c:Gender>
+	<c:CreationDate>2016-09-30T23:10:34Z</c:CreationDate>
+	<c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection>
+		<c:ContactID c:ElementID="32911e14-bb4c-49c4-8df9-5e904997ffad">
+			<c:Value>8e3500dd-4b05-403c-9203-553cc7335771</c:Value>
+		</c:ContactID>
+	</c:ContactIDCollection>
+	<c:EmailAddressCollection>
+		<c:EmailAddress c:ElementID="21c0f1cf-ff71-418d-9385-137985e02e23">
+			<c:Type>SMTP</c:Type>
+			<c:Address>csc.schmitt@laposte.net</c:Address>
+			<c:LabelCollection>
+				<c:Label>Preferred</c:Label>
+			</c:LabelCollection>
+		</c:EmailAddress>
+		<c:EmailAddress c:ElementID="51cdc17d-2f4a-49af-9b96-b82db9f09a3b" xsi:nil="true"/>
+	</c:EmailAddressCollection>
+	<c:NameCollection>
+		<c:Name c:ElementID="3d66a107-6d06-44fe-b49e-a244aa594875">
+			<c:NickName>CSC</c:NickName>
+			<c:FormattedName>Charles Schmitt</c:FormattedName>
+			<c:FamilyName>Schmitt</c:FamilyName>
+			<c:GivenName>Charles</c:GivenName>
+		</c:Name>
+	</c:NameCollection>
+	<c:PhysicalAddressCollection>
+		<c:PhysicalAddress c:ElementID="20530b9a-c2b5-4a28-91d5-385de82cce7e">
+			<c:Country>Luxembourg</c:Country>
+			<c:LabelCollection>
+				<c:Label>Business</c:Label>
+			</c:LabelCollection>
+		</c:PhysicalAddress>
+	</c:PhysicalAddressCollection>
+	<c:PositionCollection>
+		<c:Position c:ElementID="d71cd140-40cf-4015-80bb-f016c9d329c5">
+			<c:Department>IT - Development</c:Department>
+			<c:JobTitle>Software Developer</c:JobTitle>
+			<c:Company>DeutchFirma S.A.</c:Company>
+			<c:LabelCollection>
+				<c:Label>Business</c:Label>
+			</c:LabelCollection>
+		</c:Position>
+	</c:PositionCollection>
+	<c:PhoneNumberCollection>
+		<c:PhoneNumber c:ElementID="28960918-7f9d-4f64-921f-385930b5f2ca">
+			<c:Number>+352 123456-789</c:Number>
+			<c:LabelCollection>
+				<c:Label>Voice</c:Label>
+				<c:Label>Business</c:Label>
+			</c:LabelCollection>
+		</c:PhoneNumber>
+	</c:PhoneNumberCollection>
+	<c:UrlCollection>
+		<c:Url c:ElementID="fe899edd-da3f-407d-ab6e-d179b84d342c">
+			<c:Value>https://github.com/iorikay/Contact10kApart</c:Value>
+			<c:LabelCollection>
+				<c:Label>Business</c:Label>
+			</c:LabelCollection>
+		</c:Url>
+	</c:UrlCollection>
+	<c:PhotoCollection>
+		<c:Photo c:ElementID="88b380f8-e394-45bd-9763-de0c1860e58e">
+			<c:LabelCollection>
+				<c:Label>UserTile</c:Label>
+			</c:LabelCollection>
+		</c:Photo>
+	</c:PhotoCollection>
+</c:contact>

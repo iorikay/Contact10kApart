@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<contact_list>
+<contact>
+		<lastname>Schmitt</lastname>
+		<firstname>Charles</firstname>
+		<identifier>CSC</identifier>
+		<departement>IT - Development</departement>
+		<location>Luxembourg</location>
+		<phone>+352 123456-789</phone>
+		<email>csc.schmitt@laposte.net</email>
+	</contact>
+<contact>
+		<lastname>Soueidan</lastname>
+		<firstname>Sara</firstname>
+		<identifier>SSO</identifier>
+		<departement/>
+		<location/>
+		<phone/>
+		<email/>
+	</contact>
+	<contact>
+		<lastname>Andrew</lastname>
+		<firstname>Rachel</firstname>
+		<identifier>RAN</identifier>
+		<departement/>
+		<location/>
+		<phone/>
+		<email/>
+	</contact>
+	<contact>
+		<lastname/>
+		<firstname>Mat</firstname>
+		<identifier>MMA</identifier>
+		<departement/>
+		<location/>
+		<phone/>
+		<email/>
+	</contact>
+	<contact>
+		<lastname>Hogan</lastname>
+		<firstname>Lara</firstname>
+		<identifier>LHO</identifier>
+		<departement/>
+		<location/>
+		<phone/>
+		<email/>
+	</contact>
+	<contact>
+		<lastname>Simmons</lastname>
+		<firstname>Jen</firstname>
+		<identifier>JSI</identifier>
+		<departement/>
+		<location/>
+		<phone/>
+		<email/>
+	</contact>
+	<contact>
+		<lastname>Pickering</lastname>
+		<firstname>Heydon</firstname>
+		<identifier>HPI</identifier>
+		<departement/>
+		<location/>
+		<phone/>
+		<email/>
+	</contact>
+</contact_list>

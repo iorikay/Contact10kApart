@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MSP2P="http://schemas.microsoft.com/Contact/Extended/MSP2P">
+	<c:Gender>Female</c:Gender><c:CreationDate>2016-09-30T23:04:14Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a4651c1c-f1e3-4782-a203-7730033f15f3"><c:Value>6169d022-ca04-432c-a5a0-f5c7db301c6c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="44339f68-1ad6-4279-b488-1e072e0b3699"><c:NickName>LHO</c:NickName><c:FormattedName>Lara Hogan</c:FormattedName><c:FamilyName>Hogan</c:FamilyName><c:GivenName>Lara</c:GivenName></c:Name></c:NameCollection><c:PhotoCollection><c:Photo c:ElementID="9db42098-02b8-4f72-8fac-0e7888b4eeb9"><c:LabelCollection><c:Label>UserTile</c:Label></c:LabelCollection></c:Photo></c:PhotoCollection></c:contact>
