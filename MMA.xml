@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="contact.xsl"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MSP2P="http://schemas.microsoft.com/Contact/Extended/MSP2P">
+	<c:Gender>Male</c:Gender>
+	<c:CreationDate>2016-09-30T23:04:46Z</c:CreationDate>
+	<c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection>
+		<c:ContactID c:ElementID="3d6fa3b5-c23a-4103-b9c3-18e735d2de7a">
+			<c:Value>17a94c58-12ec-4206-b065-cc4fd6683e8d</c:Value>
+		</c:ContactID>
+	</c:ContactIDCollection>
+	<c:NameCollection>
+		<c:Name c:ElementID="9f475b0d-55b2-42f1-8223-2d6a0ccc9b7b">
+			<c:NickName>MMA</c:NickName>
+			<c:FormattedName>Mat Marquis</c:FormattedName>
+			<c:MiddleName>Marquis</c:MiddleName>
+			<c:GivenName>Mat</c:GivenName>
+		</c:Name>
+	</c:NameCollection>
+	<c:PhotoCollection>
+		<c:Photo c:ElementID="ec7e24e8-eda8-4491-a9f3-816cc310ed92">
+			<c:LabelCollection>
+				<c:Label>UserTile</c:Label>
+			</c:LabelCollection>
+		</c:Photo>
+	</c:PhotoCollection>
+</c:contact>

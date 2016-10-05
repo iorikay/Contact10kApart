@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="contact.xsl"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MSP2P="http://schemas.microsoft.com/Contact/Extended/MSP2P">
+	<c:Gender>Female</c:Gender>
+	<c:CreationDate>2016-09-30T23:07:04Z</c:CreationDate>
+	<c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection>
+		<c:ContactID c:ElementID="410d9070-8826-4787-ad91-efb5176d59d1">
+			<c:Value>9d8504dc-ab13-4768-afc5-05f6ce670885</c:Value>
+		</c:ContactID>
+	</c:ContactIDCollection>
+	<c:NameCollection>
+		<c:Name c:ElementID="693d6e9b-8f8f-4afb-97bb-37fbc755184b">
+			<c:NickName>SSO</c:NickName>
+			<c:FormattedName>Sara Soueidan</c:FormattedName>
+			<c:FamilyName>Soueidan</c:FamilyName>
+			<c:GivenName>Sara</c:GivenName>
+		</c:Name>
+	</c:NameCollection>
+	<c:PhotoCollection>
+		<c:Photo c:ElementID="f7307743-66d8-4fa6-9e30-e4daf43bdb88">
+			<c:LabelCollection>
+				<c:Label>UserTile</c:Label>
+			</c:LabelCollection>
+		</c:Photo>
+	</c:PhotoCollection>
+</c:contact>

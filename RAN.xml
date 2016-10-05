@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="contact.xsl"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MSP2P="http://schemas.microsoft.com/Contact/Extended/MSP2P">
+	<c:Gender>Female</c:Gender>
+	<c:CreationDate>2016-09-30T23:02:58Z</c:CreationDate>
+	<c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection>
+		<c:ContactID c:ElementID="973b381c-1163-45f1-9cd1-4a5102965ae4">
+			<c:Value>d341f5df-012e-42fa-bc41-e60d09def3a4</c:Value>
+		</c:ContactID>
+	</c:ContactIDCollection>
+	<c:NameCollection>
+		<c:Name c:ElementID="1dcb86e8-b6ee-4c89-bbbb-de7b9900a529">
+			<c:NickName>RAN</c:NickName>
+			<c:FormattedName>Rachel Andrew</c:FormattedName>
+			<c:FamilyName>Andrew</c:FamilyName>
+			<c:GivenName>Rachel</c:GivenName>
+		</c:Name>
+	</c:NameCollection>
+	<c:PhotoCollection>
+		<c:Photo c:ElementID="6853d418-3532-44e8-ad6f-8cd01ab644c9">
+			<c:LabelCollection>
+				<c:Label>UserTile</c:Label>
+			</c:LabelCollection>
+		</c:Photo>
+	</c:PhotoCollection>
+</c:contact>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="contact.xsl"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MSP2P="http://schemas.microsoft.com/Contact/Extended/MSP2P">
+	<c:Gender>Male</c:Gender>
+	<c:CreationDate>2016-09-30T23:05:35Z</c:CreationDate>
+	<c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection>
+		<c:ContactID c:ElementID="e8681230-8a8a-43bb-a36e-f3d4d29555e7">
+			<c:Value>8726a1cf-4bfd-4854-bcae-e784ecde0e8d</c:Value>
+		</c:ContactID>
+	</c:ContactIDCollection>
+	<c:NameCollection>
+		<c:Name c:ElementID="c40cff99-d775-4162-8b68-716efd19001a">
+			<c:NickName c:Version="1" c:ModificationDate="2016-09-30T23:47:56Z">HPI</c:NickName>
+			<c:Title xsi:nil="true" c:Version="2" c:ModificationDate="2016-09-30T23:47:56Z"/>
+			<c:FormattedName>Heydon Pickering</c:FormattedName>
+			<c:FamilyName>Pickering</c:FamilyName>
+			<c:GivenName>Heydon</c:GivenName>
+		</c:Name>
+	</c:NameCollection>
+	<c:PhotoCollection>
+		<c:Photo c:ElementID="9614b9e1-49c5-473d-b813-eff6b7b4a3f3">
+			<c:LabelCollection>
+				<c:Label>UserTile</c:Label>
+			</c:LabelCollection>
+		</c:Photo>
+	</c:PhotoCollection>
+</c:contact>

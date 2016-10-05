@@ -1,16 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<!-- List the contacts in an HTML table -->
+	<xsl:template match="/">
+		<html>
+			<head>
+				<style>
+					table {
+					width: 1200px;
+					align: center;
+					background-color: LightGray;
+					}
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MSP2P="http://schemas.microsoft.com/Contact/Extended/MSP2P" xmlns:MSWABMAPI="http://schemas.microsoft.com/Contact/Extended/MSWABMAPI">
+					h1 {
+					color: orange;
+					text-align: center;
+					}
 
-<xsl:template match="/">
-<contact>
-<lastname><xsl:value-of select="c:contact/c:NameCollection/c:Name/c:FamilyName"/></lastname>
-<firstname><xsl:value-of select="c:contact/c:NameCollection/c:Name/c:GivenName"/></firstname>
-<identifier><xsl:value-of select="c:contact/c:NameCollection/c:Name/c:NickName"/></identifier>
-<departement><xsl:value-of select="c:contact/c:PositionCollection/c:Position/c:Department"/></departement>
-<location><xsl:value-of select="c:contact/c:PhysicalAddressCollection/c:PhysicalAddress[c:LabelCollection/c:Label='Business']/c:Country"/></location>
-<phone><xsl:value-of select="c:contact/c:PhoneNumberCollection/c:PhoneNumber[c:LabelCollection/c:Label='Business' and c:LabelCollection/c:Label='Voice']/c:Number"/></phone>
-<email><xsl:value-of select="c:contact/c:EmailAddressCollection/c:EmailAddress[c:LabelCollection/c:Label='Preferred']/c:Address"/></email>
-</contact>
-</xsl:template>
+					tfoot {
+					text-align: center;
+					}
+				</style>
+			</head>  
+			<body>
+				<h1>List of Contacts</h1>
+<!--
+<contact_list>
+	<contact>
+		<lastname>Schmitt</lastname>
+		<firstname>Charles</firstname>
+		<identifier>CSC</identifier>
+		<departement>IT - Development</departement>
+		<location>Luxembourg</location>
+		<phone>+352 123456-789</phone>
+		<email>csc.schmitt@laposte.net</email>
+	</contact>
+</contact_list>
+-->
+				<table border="1" align="center">
+					<thead>
+						<tr bgcolor="#809fff">
+							<th>LastName</th>
+							<th>Firstname</th>
+							<th>Departement</th>
+							<th>Location</th>
+							<th>Phone</th>
+							<th>Email</th>
+						</tr>	  
+					</thead>
+
+					<tfoot>
+						<tr>
+							<td  colspan="6">Number of entries: <xsl:value-of select="count(contact_list/contact)" />
+							</td>
+						</tr>
+					</tfoot>					
+
+					<tbody>
+						<xsl:for-each select="contact_list/contact">
+							<xsl:sort select="lastname" data-type="text"/>
+							<tr>
+								<td>
+									<xsl:value-of select="lastname" />
+								</td>
+								<td>
+									<a href="Charles Schmitt.contact.xml">
+										<xsl:attribute name="href"><xsl:value-of select="identifier" />.xml</xsl:attribute>
+										<xsl:value-of select="firstname" />
+									</a>
+								</td>
+								<td>
+									<xsl:value-of select="departement" />
+								</td>				
+								<td>
+									<xsl:value-of select="location" />
+								</td>
+								<td>
+									<xsl:value-of select="phone" />
+								</td>
+								<td>
+									<xsl:value-of select="email" />
+								</td>
+							</tr>
+						</xsl:for-each>
+					</tbody>
+				</table>
+				<br/>
+			</body>
+		</html>
+	</xsl:template>
 </xsl:stylesheet>
+
